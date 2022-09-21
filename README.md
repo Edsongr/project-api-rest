@@ -42,8 +42,8 @@ Para iniciar com Docker digite o comando:
 #### RANKING:
 
 URL 
-    LARAVEL: http://127.0.0.1:8000/api/ranking/1 
-    DOCKER: http://127.0.0.1/api/ranking/1 
+    * LARAVEL: http://127.0.0.1:8000/api/ranking/1 
+    * DOCKER: http://127.0.0.1/api/ranking/1 
 
 METHOD: GET 
 
@@ -84,8 +84,8 @@ Exemplo RETORNO:
 
 #### LIST ALL MOVEMENT:
 URL 
-    LARAVEL: http://127.0.0.1:8000/api/movement 
-    DOCKER: http://127.0.0.1/api/movement 
+    * LARAVEL: http://127.0.0.1:8000/api/movement 
+    * DOCKER: http://127.0.0.1/api/movement 
 
 METHOD: GET 
 
@@ -122,8 +122,8 @@ Exemplo de Retorno:
 #### GET ONE MOVEMENT:
 
 URL:
-    LARAVEL: http://127.0.0.1:8000/api/movement/1
-    DOCKER: http://127.0.0.1/api/movement/1
+    * LARAVEL: http://127.0.0.1:8000/api/movement/1
+    * DOCKER: http://127.0.0.1/api/movement/1
 
 METHOD: GET 
 
@@ -148,8 +148,8 @@ Exemplo de Retorno:
 #### INSERT MOVEMENT:
 
 URL:
-    LARAVEL: http://127.0.0.1:8000/api/movement
-    DOCKER: http://127.0.0.1/api/movement
+    * LARAVEL: http://127.0.0.1:8000/api/movement
+    * DOCKER: http://127.0.0.1/api/movement
 
 METHOD: POST 
 
@@ -180,8 +180,8 @@ Exemplo de Retorno:
 #### UPDATE MOVEMENT:
 
 URL:
-    LARAVEL: http://127.0.0.1:8000/api/movement/1
-    DOCKER: http://127.0.0.1/api/movement/1
+    * LARAVEL: http://127.0.0.1:8000/api/movement/1
+    * DOCKER: http://127.0.0.1/api/movement/1
 
 METHOD: PUT 
 
@@ -212,8 +212,8 @@ Exemplo de Retorno:
 #### DELETE MOVEMENT:
 
 URL:
-    LARAVEL: http://127.0.0.1:8000/api/movement/1
-    DOCKER: http://127.0.0.1/api/movement/1
+    * LARAVEL: http://127.0.0.1:8000/api/movement/1
+    * DOCKER: http://127.0.0.1/api/movement/1
 
 METHOD: DELETE 
 

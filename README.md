@@ -24,16 +24,23 @@ Ou se for rodar com o Docker configurar a conexão do Mysql do docker-compose.
 Para iniciar com Laravel rode os comandos:
 
 <code>
+    
     composer install 
+    
     php artisan migrate 
+    
     php artisan db:seed
+    
     php artisan serve
+    
 </code>
 
 Para iniciar com Docker digite o comando: 
 
 <code>
+    
     sudo docker-compose up -d
+    
 </code>
 
 
@@ -42,8 +49,11 @@ Para iniciar com Docker digite o comando:
 #### RANKING:
 
 URL 
+
     * LARAVEL: http://127.0.0.1:8000/api/ranking/1 
+    
     * DOCKER: http://127.0.0.1/api/ranking/1 
+    
 
 METHOD: GET 
 
@@ -84,8 +94,11 @@ Exemplo RETORNO:
 
 #### LIST ALL MOVEMENT:
 URL 
+
     * LARAVEL: http://127.0.0.1:8000/api/movement 
+    
     * DOCKER: http://127.0.0.1/api/movement 
+    
 
 METHOD: GET 
 
@@ -93,37 +106,40 @@ Exemplo de Retorno:
 
 <code>
 
-{
-    "status": true,
-    "data": [
-        {
-            "id": 1,
-            "name": "Deadlift",
-            "created_at": null,
-            "updated_at": null
-        },
-        {
-            "id": 2,
-            "name": "Back Squat",
-            "created_at": null,
-            "updated_at": null
-        },
-        {
-            "id": 3,
-            "name": "Bench Press",
-            "created_at": null,
-            "updated_at": null
-        }
-    ]
-}
+    {
+        "status": true,
+        "data": [
+            {
+                "id": 1,
+                "name": "Deadlift",
+                "created_at": null,
+                "updated_at": null
+            },
+            {
+                "id": 2,
+                "name": "Back Squat",
+                "created_at": null,
+                "updated_at": null
+            },
+            {
+                "id": 3,
+                "name": "Bench Press",
+                "created_at": null,
+                "updated_at": null
+            }
+        ]
+    }
 
 </code>
 
 #### GET ONE MOVEMENT:
 
 URL:
+
     * LARAVEL: http://127.0.0.1:8000/api/movement/1
+    
     * DOCKER: http://127.0.0.1/api/movement/1
+    
 
 METHOD: GET 
 
@@ -131,15 +147,15 @@ Exemplo de Retorno:
 
 <code>
 
-{
-    "status": true,
-    "data": {
-        "id": 1,
-        "name": "Deadlift",
-        "created_at": null,
-        "updated_at": null
+    {
+        "status": true,
+        "data": {
+            "id": 1,
+            "name": "Deadlift",
+            "created_at": null,
+            "updated_at": null
+        }
     }
-}
 
 </code>
 
@@ -148,8 +164,11 @@ Exemplo de Retorno:
 #### INSERT MOVEMENT:
 
 URL:
+
     * LARAVEL: http://127.0.0.1:8000/api/movement
+    
     * DOCKER: http://127.0.0.1/api/movement
+    
 
 METHOD: POST 
 
@@ -157,9 +176,9 @@ Exemplo Body Envio:
 
 <code>
 
-{
-    "name": "Novo Movimento"
-}
+    {
+        "name": "Novo Movimento"
+    }
 
 </code>
 
@@ -168,10 +187,10 @@ Exemplo de Retorno:
 
 <code>
 
-{
-    "status": true,
-    "message": "REGISTRO CRIADO COM SUCESSO!"
-}
+    {
+        "status": true,
+        "message": "REGISTRO CRIADO COM SUCESSO!"
+    }
 
 </code>
 
@@ -180,8 +199,11 @@ Exemplo de Retorno:
 #### UPDATE MOVEMENT:
 
 URL:
+
     * LARAVEL: http://127.0.0.1:8000/api/movement/1
+    
     * DOCKER: http://127.0.0.1/api/movement/1
+    
 
 METHOD: PUT 
 
@@ -189,9 +211,9 @@ Exemplo Body Envio:
 
 <code>
 
-{
-    "name": "Novo Movimento edit"
-}
+    {
+        "name": "Novo Movimento edit"
+    }
 
 </code>
 
@@ -200,10 +222,10 @@ Exemplo de Retorno:
 
 <code>
 
-{
-    "status": true,
-    "message": "REGISTRO ATUALIZADO COM SUCESSO!"
-}
+    {
+        "status": true,
+        "message": "REGISTRO ATUALIZADO COM SUCESSO!"
+    }
 
 </code>
 
@@ -212,8 +234,11 @@ Exemplo de Retorno:
 #### DELETE MOVEMENT:
 
 URL:
+
     * LARAVEL: http://127.0.0.1:8000/api/movement/1
+    
     * DOCKER: http://127.0.0.1/api/movement/1
+    
 
 METHOD: DELETE 
 
@@ -222,10 +247,10 @@ Exemplo de Retorno:
 
 <code>
 
-{
-    "status": true,
-    "message": "REGISTRO DELETADO COM SUCESSO!"
-}
+    {
+        "status": true,
+        "message": "REGISTRO DELETADO COM SUCESSO!"
+    }
 
 </code>
 
